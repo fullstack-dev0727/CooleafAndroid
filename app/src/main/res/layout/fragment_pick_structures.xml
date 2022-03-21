@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@color/cooleafWhite">
+
+    <LinearLayout
+        android:id="@+id/structureBox"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:background="@color/cooleafWhite"
+        android:gravity="center|left"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/structureTagName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:textColor="@color/eventCard"
+            android:textSize="16sp"
+            android:text="Pick Structures"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/structureEditButton"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/ic_content_create"
+        android:background="@color/cooleafWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

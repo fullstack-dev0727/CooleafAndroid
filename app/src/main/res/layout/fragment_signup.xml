@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/signUpLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cooleafWhite"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <ImageView
+        android:id="@+id/cooleafLoginLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="56dp"
+        android:src="@drawable/cooleaf_signup" />
+
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/emailEditText"
+        app:floatingLabel="highlight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        app:floatingLabelText="@string/emailExample"
+        android:hint="@string/emailExample"
+        android:text=""
+        android:inputType="textEmailAddress" />
+
+    <zkhaider.com.cooleaf.ui.rippleview.RippleView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="86dp"
+        app:rv_type="rectangle">
+
+        <Button
+            android:id="@+id/signUpButton"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/signupButton"
+            android:textColor="@color/cooleafWhite"
+            android:textSize="16sp" />
+
+    </zkhaider.com.cooleaf.ui.rippleview.RippleView>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:id="@+id/termsAndAgreement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/termsAndAgreement" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

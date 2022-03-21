@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="203dp"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/personName"
+            android:layout_marginLeft="16dp"
+            android:textColor="@color/cooleafWhite"
+            android:text="@string/personName"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/personTitles"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="2dp"
+            android:text="@string/personTitles"
+            android:textColor="@color/cooleafWhite"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/personRewards"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="2dp"
+            android:text="@string/personRewards"
+            android:textColor="@color/cooleafWhite"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <zkhaider.com.cooleaf.ui.rippleview.RippleView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="42dp"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/round_image_button">
+
+        <ImageButton
+            android:id="@+id/profilePictureNavDrawer"
+            android:scaleType="centerCrop"
+            android:layout_width="@dimen/navdrawer_profile_image"
+            android:layout_height="@dimen/navdrawer_profile_image"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_profile_placeholder"
+            android:background="@drawable/navdrawer_round_profile_pic"
+            android:elevation="0dp" />
+
+    </zkhaider.com.cooleaf.ui.rippleview.RippleView>
+
+</RelativeLayout>

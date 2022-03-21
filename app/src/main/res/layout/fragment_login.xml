@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/loginLayout"
+    android:background="@color/cooleafWhite"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/cooleafLoginLogo"
+        android:layout_gravity="center"
+        android:layout_marginTop="56dp"
+        android:src="@drawable/cooleaf_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/loginUsernameEditText"
+        android:inputType="textEmailAddress"
+        app:floatingLabel="highlight"
+        app:floatingLabelText="@string/emailExample"
+        android:hint="@string/emailExample"
+        android:text=""
+        android:layout_marginTop="128dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/loginPassworkEditText"
+        android:inputType="textPassword"
+        app:floatingLabel="highlight"
+        app:floatingLabelText="@string/passwordExample"
+        android:hint="@string/passwordExample"
+        android:text=""
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <zkhaider.com.cooleaf.ui.rippleview.RippleView
+        app:rv_type="rectangle"
+        android:layout_marginTop="38dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <Button
+            android:id="@+id/loginButton"
+            android:textSize="16sp"
+            android:textColor="@color/cooleafWhite"
+            android:text="@string/loginButton"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+    </zkhaider.com.cooleaf.ui.rippleview.RippleView>
+
+    <!--
+    <TextView
+        android:id="@+id/forgotPassword"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:text="@string/forgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        -->
+
+
+</LinearLayout>

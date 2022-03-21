@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/eventDetailContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/customEventDetailImage"
+        android:transitionName="hero_event"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:scaleType="centerCrop" />
+
+    <View
+        android:id="@+id/overlay"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:background="@color/eventCard" />
+
+    <com.github.ksoichiro.android.observablescrollview.ObservableScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/customEventInfoBox"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="240dp"
+                android:background="@color/eventCard">
+
+                <TextView
+                    android:id="@+id/eventDetailTitle"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="@dimen/event_title_margin"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:scrollHorizontally="true"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/eventDetailCalenderIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_event_calender" />
+
+                <TextView
+                    android:id="@+id/customEventDetailRewards"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginRight="16dp"
+                    android:textColor="@color/cooleafWhite"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/participantsBox"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:background="@android:color/white">
+
+                <Button
+                    android:id="@+id/eventCommentsButton"
+                    android:text="@string/event_detail_comments"
+                    android:background="@drawable/button_rounded_raised"
+                    android:textColor="@android:color/white"
+                    android:layout_margin="16dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:padding="@dimen/margin_short"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="216dp"
+                    android:layout_height="42dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:gravity="center|left"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/participant1"
+                        android:layout_width="42dp"
+                        android:layout_height="42dp"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/round_participants_picture"
+                        android:scaleType="centerCrop" />
+
+                    <ImageButton
+                        android:id="@+id/participant2"
+                        android:layout_width="42dp"
+                        android:layout_height="42dp"
+                        android:layout_marginLeft="8dp"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/round_participants_picture"
+                        android:scaleType="centerCrop" />
+
+                    <ImageButton
+                        android:id="@+id/participant3"
+                        android:layout_width="42dp"
+                        android:layout_height="42dp"
+                        android:layout_marginLeft="8dp"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/round_participants_picture"
+                        android:scaleType="centerCrop" />
+
+                    <ImageButton
+                        android:id="@+id/participant4"
+                        android:layout_width="42dp"
+                        android:layout_height="42dp"
+                        android:layout_marginLeft="8dp"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/round_participants_picture"
+                        android:scaleType="centerCrop" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginRight="16dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/customEventDetailParticipants"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@color/md_divider_black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:paddingLeft="16dp"
+                android:paddingTop="16dp"
+                android:text="@string/detailDescription"
+                android:textColor="@color/secondary_text_material_light"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/customEventDetailDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_text_material_light"
+                android:background="@android:color/white"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="16dp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@color/md_divider_black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:paddingLeft="16dp"
+                android:paddingTop="16dp"
+                android:text="@string/date"
+                android:textColor="@color/secondary_text_material_light"
+                android:textSize="14sp" />
+
+            <RelativeLayout
+                android:id="@+id/customEventDetailDateBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white">
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:orientation="horizontal"
+                    android:paddingBottom="16dp"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="16dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_date_icon" />
+
+                    <TextView
+                        android:id="@+id/customEventDetailDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp" />
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/add_to_calendar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:paddingRight="16dp"
+                    android:paddingTop="20dp" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@color/md_divider_black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:paddingTop="16dp"
+                android:paddingLeft="16dp"
+                android:text="@string/location"
+                android:textColor="@color/secondary_text_material_light"
+                android:textSize="14sp" />
+
+            <RelativeLayout
+                android:id="@+id/customEventDetailAddressBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:paddingBottom="16dp"
+                android:paddingLeft="16dp"
+                android:paddingTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_location_icon" />
+
+                    <TextView
+                        android:id="@+id/customEventDetailAddress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:background="@android:color/white" />
+
+        </LinearLayout>
+
+    </com.github.ksoichiro.android.observablescrollview.ObservableScrollView>
+
+    <!-- <include layout="@layout/custom_toolbar" /> -->
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/eventJoinButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:layout_marginLeft="6dp"
+        app:fab_colorNormal="@color/colorPrimary"
+        app:fab_icon="@drawable/ic_fab_icon" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/eventCard"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <LinearLayout
+        android:id="@+id/stickyHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/customEventDetailTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/custom_event_detail_title_margin_right"
+            android:layout_marginLeft="@dimen/custom_event_detail_title_margin"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:minHeight="?attr/actionBarSize"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="360dp"
+            android:background="@android:color/transparent" />
+
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cooleaf</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="join">Join</string>
+    <string name="leave">Leave</string>
+
+    <!-- SignUp Page Strings -->
+    <string name="emailExample">Email</string>
+    <string name="passwordExample">Password</string>
+    <string name="usernameExample">Name</string>
+    <string name="signupButton">Sign Up</string>
+    <string name="login_error_title">Oops!</string>
+    <string name="login_error">Please make sure you enter a email or password.</string>
+    <string name="logout_label">Logout</string>
+    <string name="network_error_title">Network Error</string>
+    <string name="network_error">Your device is not connected to the Internet.</string>
+    <string name="termsAndAgreement">By signing up you accept the <u>Terms of Service</u>.</string>
+
+    <!-- Login Page Strings -->
+    <string name="loginButton">Login</string>
+    <string name="forgotPassword">Forgot Password?</string>
+
+    <!-- Basic Information Page -->
+    <string name="sign_up">Sign Up</string>
+    <string name="basic_information">Basic Information</string>
+    <string name="uploadProfilePicture">Upload Profile Picture</string>
+    <string name="fullName">Full Name</string>
+    <string name="generalError">Something went wrong</string>
+    <string name="nextAction">Next</string>
+    <string name="doneAction">Done</string>
+    <string name="username">New Username</string>
+    <string name="new_password">Password</string>
+    <string name="check_tags">Please edit your tags</string>
+
+    <string name="interestsTitle">Pick Your Interests</string>
+    <string name="profile_information">Profile Information</string>
+    <string name="registration_check_error">Please make sure you enter all your details.</string>
+    <string name="registration_fields_check">Please make sure you enter a password.</string>
+    <string name="selectTagsFromList">Pick Your Structure Tags</string>
+    <string name="interests_check">Please pick your Interests</string>
+    <string name="select">Select</string>
+
+    <!-- Navigation Drawer -->
+    <string name="personName">Person Name</string>
+    <string name="personTitles">Title</string>
+    <string name="personRewards">Rewards: 0</string>
+    <string name="close">Close</string>
+    <string name="open">Open</string>
+    <string name="logoutAlert">Logged Out</string>
+
+
+    <!-- Dashboard Page Strings -->
+    <string name="dashboardTitle">Home</string>
+    <string name="eventsTitle">My Events</string>
+    <string name="personNameDashboard">Hello,</string>
+
+    <!-- Event Detail -->
+    <string name="detailDescription">Description</string>
+    <string name="participants">Participants</string>
+    <string name="date">Date</string>
+
+    <!-- People Page Strings -->
+    <string name="peopleTitle">People</string>
+
+    <!-- Profile Page -->
+    <string name="structure_tags">Tags</string>
+    <string name="department">Department</string>
+    <string name="location">Location</string>
+    <string name="interestGroups">Interest Groups</string>
+
+    <!-- Edit Profile -->
+    <string name="edit_profile">Edit Profile</string>
+
+    <!-- Add extra strings above this -->
+    <string name="termsOfService">Terms of Service</string>
+    <string name="termsOfUseTitle">TERMS OF USE</string>
+    <string name="termsOfUseDetail">\t\t\t\tBy using Cooleaf.com, Users agree to be legally bound by these terms, which shall take effect immediately. If User does not agree to be legally bound by all the following Terms and Conditions, please do not access and/or use Cooleaf.com. Cooleaf may change these Terms and Conditions at any time. \n\n\t\t\t\tUser continued use of Cooleaf.com after changes have been made to the Terms mean that User agrees to be legally bound by these updated or amended terms. User may not copy, reproduce, republish, download, post, broadcast, transmit, make available to the public, or otherwise use Cooleaf.com content (inclusive of text, images, URLs, contact information, pricing information, scheduling information, etc.) in any way except for User own personal, non-commercial use. \n\n\t\t\t\tUser agrees to use Cooleaf.com only for lawful purposes and agrees to not use Cooleaf in any way that will infringe upon the use of any other user. User use of Cooleaf.com is intended for personal, noncommercial use to make legitimate and legal purchases for the programs offered. User agrees not to make fraudulent bookings on Cooleaf.com. User agrees not to use robots or other automated means to access this site, unless specifically permitted by Cooleaf.</string>
+    <string name="userAccountsTitle">USER ACCOUNTS</string>
+    <string name="userAccountsDetail">\t\t\t\tWithout limiting other remedies, Cooleaf at any point may limit, suspend or terminate user account, prohibit access to Cooleaf.com and its content, and take the technical and legal steps to keep users off the site if Cooleaf believes the user is creating problems or possible legal liabilities, infringing upon the intellectual property rights of third parties, or acting inconsistently with the Terms and Conditions specified by Cooleaf. \n\n\t\t\t\tCooleaf at any time may suspend or terminate accounts of users who may be repeat infringers of intellectual property rights of third parties. Cooleaf reserves the right to cancel unconfirmed accounts or accounts that have been inactive for a long time, or to modify or discontinue Cooleaf products, programs or tools.</string>
+    <string name="bookingsModificationsTitle">BOOKINGS, MODIFICATIONS, AND AMENDMENTS</string>
+    <string name="bookingsModificationsDetail">\t\t\t\tUser agrees that all transactions are non-cancelable and non-refundable Unless otherwise stated within the Program description itself, all purchases made through Cooleaf for programs with flexible start dates expire within ninety days of purchase date of said program. \n\n\t\t\t\tIf a particular program purchased by User is discontinued for any reason by Provider, Provider and User shall be responsible for settlement of any disputes arising from said scenario (i.e. refunds, even exchanges, etc) User agrees to accept all of the terms and conditions when User agrees to book and pay for a Service on Cooleaf. Terms and conditions include those embodied within Terms of Service as well as those embodied within specific Program listings and instructions. When User books and pays for a Program on Cooleaf, User agrees to comply with the Provider’s specific rules and regulations as applicable. \n\n\t\t\t\tThe Programs offered on Cooleaf are offered directly by the Provider named on Cooleaf (“Provider”). Cooleaf is not responsible or liable for any information on its Service listings or company profiles. Cooleaf is not responsible for any changes or cancellations made to bookings by the Provider. Cooleaf reserves the right to cancel or change any purchased program at any time, for any reason.</string>
+    <string name="pricingTitle">PRICING AND INCLUSIONS/EXCLUSIONS</string>
+    <string name="pricingDetail">\t\t\t\tPrices listed on Cooleaf.com are per person unless otherwise specified by the Provider. Prices are based in USD unless otherwise specified on the Service listing. All prices are subject to change without notice, until a purchase has been completed. Unless otherwise specified, prices do not include any local taxes or use-fees, including foreign departure, security, port charges, park   fees, customs, immigration, agricultural, passenger-facility charges or international transportation tax. Prices do not include tips/gratuities to tour directors, drivers or local guides; passport and visa fees; baggage and personal insurance; any items of a personal nature; and any beverages or food not specifically listed under “Inclusions” on the product pages of Cooleaf.com.</string>
+    <string name="paymentsTitle">PAYMENTS, CANCELLATIONS AND DISPUTES</string>
+    <string name="paymentsDetail">\t\t\t\tCooleaf accepts the following credit cards: Visa, Mastercard, American Express and Discover. Cooleaf does not charge buyers any service fee for processing credit card payments. A full payment by credit card is required to make a reservation on Cooleaf. Payments will be listed as COOLEAF on the credit card statement. Cooleaf is not responsible or liable for any refunds or cancellations for booked Programs. Refunds and cancellations are managed by the Providers who provide the booked Programs.</string>
+    <string name="rewardsTitle">REWARDS</string>
+    <string name="rewardsDetail">\t\t\t\tThe Cooleaf rewards program is designed to reward Cooleaf users for pursuing healthy behaviors by awarding them Rewards points (“Points”) for all program purchases made through Cooleaf All Cooleaf users are automatically opted in to the Cooleaf Rewards program The following activities ("Qualifying Activities") may result in the award of Points to Cooleaf Users: \n\n1. Program purchases made by User at www.cooleaf.com, \n\n2. Any other action that Cooleaf may, from time to time in its sole discretion, promote or designate as a "Qualifying Activity." \n\n\t\t\t\tEach Qualifying Activity will result in the award of a certain number of Points as specified by Cooleaf. The number of points will typically be displayed on the Site prior to user engaging in the Qualifying Activity or be communicated to users via an email message. The specified Points will be added to the account of the User that engaged in the Qualifying Activity. Users must purchase programs in the name of the planned participant in said program. If User adds multiple participants during purchase for a particular program, User will only earn points for programs purchased with their unique e-mail address. If other participants are added to the program, said participants will earn reward points to an account created in their name on Cooleaf with the participant’s associated e-mail address. Points cannot be combined across more than one User account. \n\n\t\t\t\tAll Points are subject to review and verification by Cooleaf. Cooleaf reserves the right to withhold or delay the award of Points until it has confirmed or cleared the transaction constituting the Qualifying Activity. Cooleaf reserves the right, at its sole discretion, to adjust a User\'s account status due to computer error, machine malfunction, employee, customer or other error, fraud or other misuse of the Points or the Program. All decisions of Cooleaf with respect to the issuance, deduction, adjustment or use of Points shall be final and binding on all Users. Cooleaf further reserves the right to deduct Points already awarded if it discovers in its sole discretion that the Qualifying Activity was invalid, fraudulent or did not comply with Cooleaf policies and procedures. \n\n\t\t\t\tFor all returned purchases associated with a Qualifying Purchase made by User, Cooleaf reserves the right to deduct the Points earned for such purchase from User account. Accrued Points do not constitute the property of any User. Points are not transferable (i) upon death, (ii) as part of a domestic relations matter, or (iii) otherwise by operation of law. Points accrued in a User\'s account shall be maintained in that account until it is   redeemed for an award or until it expires, whichever occurs first. User points do not expire while Cooleaf is operational as a public business entity. A User may redeem Points for items and services in the Cooleaf   Rewards catalog. When redeeming Points for items and services in the Cooleaf Rewards catalog, User must have enough Points to pay for the entire item or service chosen. User account balance of Points is adjusted as Points are earned and redeemed. Points cannot be redeemed for cash, are not transferable and have no face value. Points may only be redeemed for purchases and other items on www.Cooleaf.com. \n\n\t\t\t\tCooleaf may modify these Terms or terminate the Program at any time, in its sole discretion, by posting amended Terms or a termination notice on the Rewards section of the Cooleaf Site, or by sending an   email to the email address tied to the User\'s account with Cooleaf. Such notice shall be effective immediately after it is posted or emailed. If an amendment is not acceptable to User, User’s only recourse is to opt out of the Program. This Program is void outside the United States and where prohibited or restricted by law. \n\n\t\t\t\tTO THE MAXIMUM EXTENT PERMITTED BY LAW, COOLEAF DISCLAIMS ALL WARRANTIES AND REPRESENTATIONS REGARDING THE REWARDS PROGRAM AND ANY PRODUCT OR SERVICES RECEIVED IN CONNECTION WITH THE PROGRAM, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR OR GENERAL USE OR PURPOSE. TO THE MAXIMUM EXTENT PERMITTED BY LAW, USER HEREBY RELEASES AND WAIVES, AND COOLEAF AND ITS AFFILIATED COMPANIES, AND THEIR RESPECTIVE   EMPLOYEES, OFFICERS, DIRECTORS AND AGENTS, SHALL NOT BE LIABLE FOR ANY CLAIMS, ACTIONS, INJURY, LOSS OR DAMAGE OF ANY KIND, INCLUDING, BUT NOT   LIMITED TO, PERSONAL INJURY OR DEATH, RESULTING FROM THE PROGRAM OR ANY PRODUCTS, SERVICES, MERCHANDISE, FOOD OR OTHER ITEMS RECEIVED IN CONNECTION WITH THE REDEMPTION OF POINTS. THIS LIMITATION OF LIABILITY IS A COMPREHENSIVE LIMITATION OF LIABILITY THAT APPLIES TO ALL DAMAGES OF ANY KIND, INCLUDING (WITHOUT   LIMITATION) COMPENSATORY, DIRECT, INDIRECT OR CONSEQUENTIAL DAMAGES; LOSS OF DATA, INCOME OR PROFIT; LOSS OR DAMAGE TO PROPERTY; AND CLAIMS   OF THIRD PARTIES.</string>
+    <string name="disclaimerTitle">DISCLAIMERS AND LIMITATIONS OF LIABILITY</string>
+    <string name="disclaimerDetail">\t\t\t\tUnder no circumstances will Cooleaf or its agents, affiliates, service providers, providers, and/or distributors, or the owners, tenants or managers of any premises on which Cooleaf provides or facilitates the provision of services be liable for any of the following losses or damage (whether such losses where foreseen, foreseeable, known or otherwise): (a) loss of data; (b) loss of revenue or anticipated profits; (c) loss of business; (d) loss of opportunity; (e) loss of goodwill or injury to reputation; (f) losses suffered by third parties; or (g) any indirect, consequential, special or exemplary damages arising from the use of Cooleaf.com regardless of the form of action. \n\n\t\t\t\tCooleaf shall not be liable for injury, damage, loss, accident,delay, irregularity, liability, or expense to a person or property for bookings made on Cooleaf.com due to the acts of Service providers or Providers. The content on Cooleaf.com – including the information, names, images, pictures, logos, prices, dates, and availability regarding or related to Cooleaf, Service providers, and/or Providers – is provided “AS IS” and on an “AS AVAILABLE” basis, without any representation or any kind of warranty or guarantee made (whether expressed or implied by law) to the extent permitted by law, including the implied warranties of satisfactory quality for a particular purpose, non-infringement, compatibility, security and accuracy Cooleaf does not guarantee the accuracy of information contained on Cooleaf.com will be free of error, that defects will be corrected or that Cooleaf.com or its servers that it makes available are free of viruses or bugs. \n\n\t\t\t\tIf any of these terms are determined to be illegal, invalid or otherwise unenforceable by reason of the laws of any state or country in which these terms are intended to be effective, then to the extent and within the jurisdiction in which that term is illegal, invalid or unenforceable, it shall be severed and deleted from these terms and the remaining terms shall survive, remain in full force and effect and continue to be binding and enforceable. If Users have a dispute with one or more Users, Users release (and its officers, directors, agents, subsidiaries, joint ventures and employees) from claims, demands and damages (actual and consequential) of every kind and nature, known and unknown, arising out of or in any way connected with such disputes. If User is a California resident, User waives California Civil Code §1542, which says: "A general release does not extend to claims which the creditor does not know or suspect to exist in his favor at the time of executing the release, which if known by him must have materially affected his settlement with the debtor."\n\n</string>
+    <string name="added_to_calendar">Added to calendar</string>
+    <string name="which_calendar">Which calendar would you like to add the event to?</string>
+    <string name="selectEventsFromSeries">Select Events</string>
+    <string name="participantsToolbarTitle">Participants</string>
+    <string name="groupsTitle">Groups</string>
+    <string name="whatIsGoingOn">What is going on</string>
+    <string name="membersTitle">Members</string>
+    <string name="group_events_title">Group Events</string>
+    <string name="search">Search</string>
+    <string name="search_posts_header">Posts</string>
+    <string name="search_people_header">People</string>
+    <string name="search_events_header">Events</string>
+    <string name="search_challenges_header">Challenges</string>
+    <string name="add_comment">add comment</string>
+    <string name="create_post">Create Post</string>
+    <string name="join_group">Join</string>
+    <string name="edit_text_reply">Reply...</string>
+    <string name="comment_title">Group Conversation</string>
+    <string name="content_is_empty">Content is empty</string>
+    <string name="new_post">New Post</string>
+    <string name="edit_post">Edit Post</string>
+    <string name="save">Save</string>
+    <string name="undo">Undo</string>
+    <string name="item_removed">Post Removed</string>
+    <string name="feed_new_hint">New post</string>
+    <string name="post">Post</string>
+    <string name="something_wrong">Something went wrong :(</string>
+    <string name="event_joined">Event Joined</string>
+    <string name="event_detail_comments">Comments</string>
+    <string name="series_join_events">Join Events</string>
+    <string name="left_event">Left Event</string>
+    <string name="new_comment">New Comment Posted</string>
+    <string name="new_feed">New Feed Created</string>
+    <string name="empty_post_error">Post content cannot be empty</string>
+    <string name="searching">Searching</string>
+
+</resources>

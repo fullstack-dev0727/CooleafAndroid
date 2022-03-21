@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/eventCard"
+    android:layout_margin="8dp"
+    android:background="?selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="310dp">
+
+
+        <TextView
+            android:id="@+id/eventParticipants"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:text="32 Participants"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="@dimen/activity_hashtag_margin"
+            android:textStyle="normal"
+            android:textSize="14sp"
+            android:textColor="@color/cooleafWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <RelativeLayout
+            android:layout_gravity="bottom"
+            android:id="@+id/eventInfo"
+            android:orientation="horizontal"
+            android:background="?android:selectableItemBackground"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <zkhaider.com.cooleaf.ui.revealcolor.RevealColorView
+                android:id="@+id/reveal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageButton
+                android:id="@+id/eventImage"
+                android:background="@android:color/transparent"
+                android:scaleType="centerCrop"
+                android:layout_alignParentTop="true"
+                android:transitionName="hero_event"
+                android:adjustViewBounds="true"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_image_height" />
+
+            <View
+                android:id="@+id/eventMask"
+                android:background="@color/eventMask"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_image_height" />
+
+            <LinearLayout
+                android:id="@+id/lowerBox"
+                android:orientation="vertical"
+                android:layout_margin="16dp"
+                android:layout_below="@id/eventImage"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/eventDescription"
+                    android:text="Yoga at Tullie Circle"
+                    android:textSize="@dimen/activity_title_text_size"
+                    android:textStyle="normal"
+                    android:textColor="@color/primary_text_default_material_light"
+                    android:scrollHorizontally="true"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/eventHashtag"
+                    android:text="#social #social #social"
+                    android:textSize="@dimen/activity_hashtag_size"
+                    android:scrollHorizontally="true"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_above="@id/lowerBox"
+                android:background="@color/activity_mask"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/image_box_height" />
+
+            <TextView
+                android:id="@+id/eventRewards"
+                android:text="40 Rewards"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/activity_date_text_color"
+                android:textSize="@dimen/activity_rewards_text_size"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginBottom="8dp"
+                android:layout_above="@id/lowerBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/eventTime"
+                android:layout_above="@id/lowerBox"
+                android:text="Dec 15, 05:00 PM - 07:00 PM"
+                android:textColor="@color/activity_date_text_color"
+                android:textSize="@dimen/activity_date_text_size"
+                android:textStyle="normal"
+                android:layout_marginRight="@dimen/activity_date_margin_right"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginBottom="8dp"
+                android:scrollHorizontally="true"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/eventTitle"
+                android:textSize="24sp"
+                android:text="Marathon of the Century"
+                android:scrollHorizontally="true"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_title_margin_right"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/activity_date_text_color"
+                android:layout_above="@id/eventTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/joinButton"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:text="@string/join"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/eventCard"
+                android:textAllCaps="true" />
+
+            <Button
+                android:id="@+id/addCommentButton"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:text="@string/add_comment"
+                android:layout_alignParentBottom="true"
+                android:textColor="@color/primary_material_dark"
+                android:layout_toStartOf="@id/joinButton"
+                android:layout_toLeftOf="@id/joinButton"
+                android:textAllCaps="true" />
+
+
+        </RelativeLayout>
+
+</android.support.v7.widget.CardView>

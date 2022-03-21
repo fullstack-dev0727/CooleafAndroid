@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/peopleCard"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    app:cardElevation="2dp"
+    android:layout_width="150dp"
+    android:layout_height="150dp">
+
+    <LinearLayout
+        android:id="@+id/peopleCardLinearLayout"
+        android:orientation="vertical"
+        android:background="?android:selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/peopleImage"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"/>
+
+        <RelativeLayout
+            android:id="@+id/peopleInfo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/peopleName"
+                android:layout_marginLeft="@dimen/people_name_margin"
+                android:layout_marginRight="@dimen/people_name_margin"
+                android:layout_marginTop="8dp"
+                android:textSize="16sp"
+                android:scrollHorizontally="true"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textColor="@color/primary_dark_material_dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/peoplePosition"
+                android:layout_below="@id/peopleName"
+                android:scrollHorizontally="true"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_marginLeft="@dimen/people_position_margin"
+                android:layout_marginRight="@dimen/people_position_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

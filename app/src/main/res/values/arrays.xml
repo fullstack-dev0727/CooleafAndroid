@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="signInTabNames">
+        <item>Login</item>
+        <item>Sign Up</item>
+    </string-array>
+
+    <string-array name="profileTabNames">
+        <item>Information</item>
+        <item>History</item>
+        <item>Groups</item>
+    </string-array>
+
+    <string-array name="searchTabNames">
+        <item>All</item>
+        <item>People</item>
+        <item>Events</item>
+        <item>Groups</item>
+        <item>Posts</item>
+    </string-array>
+
+    <string-array name="groupDetailTabNames">
+        <item>Posts</item>
+        <item>Events</item>
+    </string-array>
+
+    <string-array name="pictureOptions">
+        <item>Take Picture</item>
+        <item>Upload From Gallery</item>
+    </string-array>
+
+    <string-array name="uploadFileOptions">
+        <item>Take Photo</item>
+        <item>Upload Photo</item>
+        <item>Upload File</item>
+    </string-array>
+    
+    <string-array name="sampleDepartments">
+        <item>Department</item>
+        <item>Physician</item>
+        <item>IT</item>
+        <item>HR</item>
+        <item>Marketing</item>
+    </string-array>
+
+    <string-array name="genders">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    
+    <string-array name="navDrawerTitles">
+        <item>Home</item>
+        <item>My Events</item>
+        <item>Groups</item>
+        <item>People</item>
+        <item>My Profile</item>
+    </string-array>
+
+    <array name="navDrawerIcons">
+        <item>@drawable/ic_navdrawer_home</item>
+        <item>@drawable/ic_navdrawer_events</item>
+        <item>@drawable/ic_navdrawer_groups</item>
+        <item>@drawable/ic_navdrawer_groups</item>
+        <item>@drawable/ic_navdrawer_profile</item>
+    </array>
+
+
+</resources>
